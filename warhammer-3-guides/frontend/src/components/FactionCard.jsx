@@ -30,7 +30,7 @@ function FactionCard({ faction }) {
         height="140"
         image={faction.icon_url}
         alt={faction.lord}
-        style={{ objectFit: "contain", background: "#222" }}
+        style={{ objectFit: "contain", background: "#223" }}
         onError={(e) => {
           e.target.onerror = null;
           e.target.src = "/placeholder.png";
