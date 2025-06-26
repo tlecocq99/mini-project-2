@@ -1,59 +1,42 @@
 import React from "react";
-import {
-  Backdrop,
-  Card,
-  CardContent,
-  CardMedia,
-  Typography,
-} from "@mui/material";
+import { Card, CardContent, CardMedia, Typography } from "@mui/material";
 
 function FactionCard({ faction }) {
   return (
     <Card
-      variant="outlined"
       sx={{
-        margin: "auto",
-        my: 2,
-        maxWidth: 350,
-        width: "100%",
-        height: 320, // Set your desired uniform height
+        width: 280,
+        height: 360,
         display: "flex",
         flexDirection: "column",
-        backgroundColor: "rgba(30,30,30,0.7)",
-        border: "2px solid rgba(255,255,255,0.2)",
-        boxShadow: "0 4px 8px rgba(0,0,0,0.3)",
-        backdropFilter: "blur(3px)",
+        justifyContent: "space-between",
       }}
     >
       <CardMedia
         component="img"
-        height="140"
         image={faction.icon_url}
         alt={faction.lord}
-        style={{ objectFit: "contain", background: "#223" }}
+        sx={{ objectFit: "contain", background: "#222", height: 140 }}
         onError={(e) => {
           e.target.onerror = null;
-          e.target.src = "/placeholder.png";
+          e.target.src = "/placeholder.png"; // Use a fallback image if desired
         }}
       />
-      <CardContent
-        sx={{
-          backgroundColor: "transparent",
-          color: "white",
-          p: 2,
-        }}
-      >
-        <Typography color="white" variant="h5">
+      <CardContent sx={{ flexGrow: 1 }}>
+        <Typography variant="h5">
           {faction.lord}{" "}
           <span style={{ fontWeight: 300 }}>({faction.faction})</span>
         </Typography>
-        <Typography color="white" variant="subtitle2" mt={0.2}>
+        <Typography variant="subtitle2" color="textSecondary">
           {faction.race}
         </Typography>
-        <Typography color="white" variant="body2" mt={1}>
-          {faction.summary}{" "}
+        <Typography
+          variant="body2"
+          sx={{ overflow: "hidden", textOverflow: "ellipsis" }}
+        >
+          {faction.summary}
         </Typography>
-        <Typography variant="caption" color="white">
+        <Typography variant="caption" color="secondary">
           DLC: {faction.dlc_required}
         </Typography>
       </CardContent>
