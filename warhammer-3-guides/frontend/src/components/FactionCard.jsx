@@ -4,12 +4,19 @@ import { Card, CardContent, CardMedia, Typography } from "@mui/material";
 function FactionCard({ faction }) {
   return (
     <Card
+      variant="outlined"
       sx={{
-        width: 280,
-        height: 360,
+        margin: "auto",
+        my: 2,
+        maxWidth: 280,
+        width: "100%",
+        height: 360, // Set your desired uniform height
         display: "flex",
         flexDirection: "column",
-        justifyContent: "space-between",
+        backgroundColor: "rgba(30,30,30,0.7)",
+        border: "2px solid rgba(255,255,255,0.2)",
+        boxShadow: "0 4px 8px rgba(0,0,0,0.3)",
+        backdropFilter: "blur(3px)",
       }}
     >
       <CardMedia
