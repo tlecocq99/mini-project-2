@@ -43,6 +43,24 @@ export default function FeedbackPage() {
             sx={{ color: "green", mt: 2 }}
           >
             Thank you for your feedback!
+            <br />
+            We appreciate your input and will use it to improve our site.
+            <br />
+            <Button
+              variant="outlined"
+              color="secondary"
+              onClick={() => navigate("/")}
+            >
+              Home
+            </Button>
+            <Button
+              variant="outlined"
+              color="primary"
+              onClick={() => navigate("/factions")}
+              sx={{ ml: 2 }}
+            >
+              Factions List
+            </Button>
           </Typography>
         ) : (
           <form onSubmit={handleSubmit}>
