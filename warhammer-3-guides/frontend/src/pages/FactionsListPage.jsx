@@ -63,7 +63,12 @@ export default function FactionsListPage() {
 
   return (
     <Container maxWidth="lg" sx={{ mt: 4 }}>
-      <Typography variant="h3" align="center" gutterBottom>
+      <Typography
+        fontFamily={"Manufacturing Consent"}
+        variant="h1"
+        align="center"
+        gutterBottom
+      >
         Warhammer 3 Faction Guides
       </Typography>
       <Box sx={{ display: "flex", gap: 2, mb: 2 }}>
