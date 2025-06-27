@@ -30,20 +30,30 @@ function FactionCard({ faction }) {
         }}
       />
       <CardContent sx={{ flexGrow: 1 }}>
-        <Typography variant="h5">
+        <Typography fontFamily="Playfair Display" variant="h6" gutterBottom>
           {faction.lord}{" "}
           <span style={{ fontWeight: 300 }}>({faction.faction})</span>
         </Typography>
-        <Typography variant="subtitle2" color="textSecondary">
+        <Typography
+          fontFamily="Playfair Display"
+          variant="subtitle2"
+          color="textSecondary"
+        >
           {faction.race}
         </Typography>
         <Typography
-          variant="body2"
+          fontFamily="Playfair Display"
+          variant="body1"
           sx={{ overflow: "hidden", textOverflow: "ellipsis" }}
         >
           {faction.summary}
         </Typography>
-        <Typography variant="caption" color="secondary">
+        <Typography
+          fontFamily="Playfair Display"
+          variant="caption"
+          color="secondary"
+          sx={{ textOverflow: "ellipsis", overflow: "hidden" }}
+        >
           DLC: {faction.dlc_required}
         </Typography>
       </CardContent>
