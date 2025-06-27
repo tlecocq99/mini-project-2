@@ -30,14 +30,19 @@ function FactionCard({ faction }) {
         }}
       />
       <CardContent sx={{ flexGrow: 1 }}>
-        <Typography fontFamily="Playfair Display" variant="h6" gutterBottom>
+        <Typography
+          color="white"
+          fontFamily="Playfair Display"
+          variant="h6"
+          gutterBottom
+        >
           {faction.lord}{" "}
           <span style={{ fontWeight: 300 }}>({faction.faction})</span>
         </Typography>
         <Typography
           fontFamily="Playfair Display"
           variant="subtitle2"
-          color="textSecondary"
+          color="white"
         >
           {faction.race}
         </Typography>
@@ -45,6 +50,7 @@ function FactionCard({ faction }) {
           fontFamily="Playfair Display"
           variant="body1"
           sx={{ overflow: "hidden", textOverflow: "ellipsis" }}
+          color="white"
         >
           {faction.summary}
         </Typography>
@@ -52,7 +58,6 @@ function FactionCard({ faction }) {
           fontFamily="Playfair Display"
           variant="caption"
           color="secondary"
-          sx={{ textOverflow: "ellipsis", overflow: "hidden" }}
         >
           DLC: {faction.dlc_required}
         </Typography>

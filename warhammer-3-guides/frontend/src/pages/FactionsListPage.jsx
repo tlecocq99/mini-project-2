@@ -62,9 +62,20 @@ export default function FactionsListPage() {
   };
 
   return (
-    <Container maxWidth="lg" sx={{ mt: 4 }}>
+    <Container
+      maxWidth="xl"
+      sx={{
+        backgroundImage: "url('./public/splashArt.jpg')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        minHeight: "100vh",
+        borderRadius: 2,
+        overflow: "hidden",
+      }}
+    >
       <Typography
         fontFamily={"Manufacturing Consent"}
+        sx={{ color: "white" }}
         variant="h1"
         align="center"
         gutterBottom
@@ -75,7 +86,7 @@ export default function FactionsListPage() {
         <TextField
           fullWidth
           placeholder="Search for a faction, lord, or race..."
-          sx={{ mb: 2 }}
+          sx={{ mb: 2, backgroundColor: "white" }}
           value={search}
           onChange={(e) => setSearch(e.target.value)}
         />
@@ -128,7 +139,7 @@ export default function FactionsListPage() {
         </DialogActions>
       </Dialog>
 
-      <Box sx={{ maxHeight: "65vh", overflowY: "auto", pr: 1, mb: 4 }}>
+      <Box sx={{ maxHeight: "73vh", overflowY: "auto", pr: 1, mb: 4 }}>
         <Grid container spacing={2} justifyContent="center">
           {filtered.map((f) => (
             <Grid item key={f.id}>
