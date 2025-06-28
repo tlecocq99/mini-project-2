@@ -17,11 +17,9 @@ export default function RandomFactionSlot({
   navigateToFaction,
 }) {
   const [hasSpun, setHasSpun] = useState(false);
-  // Repeats the factions array for smooth wraparound scrolling
   const displayFactions = [...factions, ...factions, ...factions];
   const centerIndex = Math.floor(displayFactions.length / 2);
 
-  // slot offset controls which faction is at the top of the visible area
   const [offset, setOffset] = useState(centerIndex - 2);
   const [isSpinning, setIsSpinning] = useState(false);
   const [stoppedOffset, setStoppedOffset] = useState(null);
@@ -108,10 +106,10 @@ export default function RandomFactionSlot({
             </Box>
           ))}
         </Box>
-        {selectedFaction && (
+        {selectedFaction && hasSpun && (
           <Typography
             align="center"
-                      sx={{ mt: 2, fontSize: "1.2rem", fontWeight: "bold" }}
+            sx={{ mt: 2, fontSize: "1.2rem", fontWeight: "bold" }}
           >
             🎉 <b>{selectedFaction.faction}</b> — <b>{selectedFaction.lord}</b>{" "}
             🎉
@@ -137,7 +135,8 @@ export default function RandomFactionSlot({
             variant="contained"
             color="success"
             sx={{ mt: 2, ml: 2 }}
-            onClick={() => navigateToFaction(selectedFaction.id)}
+            onClick={() => navigateToFaction(selectedFaction?.id)}
+            disabled={!hasSpun || !selectedFaction || isSpinning}
           >
             GO TO FACTION
           </Button>
