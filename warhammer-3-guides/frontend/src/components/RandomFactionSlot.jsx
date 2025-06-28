@@ -135,7 +135,7 @@ export default function RandomFactionSlot({
             variant="contained"
             color="success"
             sx={{ mt: 2, ml: 2 }}
-            onClick={() => navigateToFaction(selectedFaction?.id)}
+            onClick={() => navigateToFaction(selectedFaction?.slug)}
             disabled={!hasSpun || !selectedFaction || isSpinning}
           >
             GO TO FACTION
