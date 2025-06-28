@@ -19,14 +19,13 @@ app.get("/api/factions", (req, res) => {
   });
 });
 
-// Route: GET /api/factions/:id
-app.get("/api/factions/:id", (req, res) => {
+app.get("/api/factions/:slug", (req, res) => {
   fs.readFile(dataPath, "utf8", (err, data) => {
     if (err) {
       return res.status(500).json({ error: "Could not read factions data." });
     }
     const factions = JSON.parse(data);
-    const faction = factions.find((f) => f.id === parseInt(req.params.id));
+    const faction = factions.find((f) => f.slug === req.params.slug);
     if (!faction) return res.status(404).json({ error: "Faction not found" });
     res.json(faction);
   });

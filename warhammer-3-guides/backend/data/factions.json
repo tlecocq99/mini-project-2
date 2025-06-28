@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "faction": "The Empire",
+    "faction": "Reikland",
     "lord": "Karl Franz",
     "race": "Empire",
     "start_position": "Reikland (Altdorf)",
@@ -12,7 +12,8 @@
       "Use artillery and gunpowder for battlefield control."
     ],
     "icon_url": "https://static.wikia.nocookie.net/totalwarhammer_gamepedia/images/e/e9/Reikland.png",
-    "dlc_required": "Requires Total War: Warhammer 1 or 2"
+    "dlc_required": "Requires Total War: Warhammer 1 or 2",
+    "slug": "reikland"
   },
   {
     "id": 2,
@@ -27,14 +28,15 @@
       "Rely on ranged units for battlefield control."
     ],
     "icon_url": "https://static.wikia.nocookie.net/totalwarhammer_gamepedia/images/a/a4/The_Huntsmarshal%27s_Expedition.png",
-    "dlc_required": "Hunter & the Beast DLC"
+    "dlc_required": "Hunter & the Beast DLC",
+    "slug": "the-huntmarshals-expedition"
   },
   {
     "id": 3,
-    "faction": "Bretonnia",
+    "faction": "Couronne",
     "lord": "Louen Leoncoeur",
     "race": "Bretonnia",
-    "start_position": "Couronne (Bretonnia)",
+    "start_position": "Couronne (Marches of Couronne)",
     "difficulty": "Easy",
     "summary": "Heavy cavalry, chivalry, and a feudal economy. Unique Green Knight summon.",
     "tips": [
@@ -42,7 +44,8 @@
       "Cavalry charges are key to winning battles."
     ],
     "icon_url": "https://static.wikia.nocookie.net/totalwarhammer_gamepedia/images/c/c1/Bretonnia.png",
-    "dlc_required": "Requires Total War: Warhammer 1 or 2"
+    "dlc_required": "Requires Total War: Warhammer 1 or 2",
+    "slug": "couronne"
   },
   {
     "id": 4,
@@ -57,14 +60,15 @@
       "Balance economy between peasants and knights."
     ],
     "icon_url": "https://static.wikia.nocookie.net/totalwarhammer_gamepedia/images/b/bc/Carcassonne.png",
-    "dlc_required": "Requires Total War: Warhammer 1 or 2"
+    "dlc_required": "Requires Total War: Warhammer 1 or 2",
+    "slug": "carcassonne"
   },
   {
     "id": 5,
     "faction": "Chevaliers de Lyonesse",
     "lord": "Repanse de Lyonesse",
     "race": "Bretonnia",
-    "start_position": "Southlands",
+    "start_position": "Copher (Coast of Araby)",
     "difficulty": "Normal",
     "summary": "Bretonnian crusade in the desert, with unique Grail relics and heavy cavalry.",
     "tips": [
@@ -72,14 +76,15 @@
       "Use Repanse’s buffs for unstoppable charges."
     ],
     "icon_url": "https://static.wikia.nocookie.net/totalwarhammer_gamepedia/images/b/b7/Chevaliers_de_Lyonesse.png",
-    "dlc_required": "Free LC (with Total War: Warhammer 1 or 2)"
+    "dlc_required": "Free LC (with Total War: Warhammer 1 or 2)",
+    "slug": "chevaliers-de-lyonesse"
   },
   {
     "id": 6,
-    "faction": "Kislev",
+    "faction": "The Ice Court",
     "lord": "Tzarina Katarin",
     "race": "Kislev",
-    "start_position": "Kislev (Kislev)",
+    "start_position": "Kislev (River Urskoy)",
     "difficulty": "Normal",
     "summary": "Hybrid ice-focused faction with cavalry and bear riders.",
     "tips": [
@@ -87,14 +92,15 @@
       "Use ice magic for crowd control."
     ],
     "icon_url": "https://static.wikia.nocookie.net/totalwarhammer_gamepedia/images/a/ab/The_Ice_Court.png",
-    "dlc_required": "Requires Total War: Warhammer 3"
+    "dlc_required": "Requires Total War: Warhammer 3",
+    "slug": "the-ice-court"
   },
   {
     "id": 7,
     "faction": "The Great Orthodoxy",
     "lord": "Kostaltyn",
     "race": "Kislev",
-    "start_position": "Kislev (Northern Oblast)",
+    "start_position": "Erengrad (River Lynsk)",
     "difficulty": "Normal",
     "summary": "Religious Kislevite zealots with unique supporters campaign.",
     "tips": [
@@ -102,14 +108,15 @@
       "Buff infantry with Kostaltyn’s zeal."
     ],
     "icon_url": "https://static.wikia.nocookie.net/totalwarhammer_gamepedia/images/3/34/The_Great_Orthodoxy.png",
-    "dlc_required": "Requires Total War: Warhammer 3"
+    "dlc_required": "Requires Total War: Warhammer 3",
+    "slug": "the-great-orthodoxy"
   },
   {
     "id": 8,
-    "faction": "The Ice Court",
+    "faction": "The Ursun Revivalists",
     "lord": "Boris Ursus",
     "race": "Kislev",
-    "start_position": "Kislev (Erengrad)",
+    "start_position": "Praag (The Cursed City)",
     "difficulty": "Hard",
     "summary": "Kislevite patriarch leading from the north with unbreakable bear riders.",
     "tips": [
@@ -117,14 +124,15 @@
       "Lead wars northward against Chaos."
     ],
     "icon_url": "https://static.wikia.nocookie.net/totalwarhammer_gamepedia/images/a/a1/Ursun_Revivalists.png",
-    "dlc_required": "Requires Total War: Warhammer 3"
+    "dlc_required": "Requires Total War: Warhammer 3",
+    "slug": "ursun-revivalists"
   },
   {
     "id": 9,
-    "faction": "Grand Cathay",
+    "faction": "The Northern Provinces",
     "lord": "Miao Ying, The Storm Dragon",
     "race": "Grand Cathay",
-    "start_position": "The Northern Provinces (Grand Cathay)",
+    "start_position": "Nan-Gau (Gunpowder Road)",
     "difficulty": "Normal",
     "summary": "Balanced armies with strong artillery, flying lords, and harmony mechanic.",
     "tips": [
@@ -132,11 +140,12 @@
       "Control caravans for economic growth."
     ],
     "icon_url": "https://static.wikia.nocookie.net/totalwarhammer_gamepedia/images/0/0d/The_Northern_Provinces.png/",
-    "dlc_required": "Requires Total War: Warhammer 3"
+    "dlc_required": "Requires Total War: Warhammer 3",
+    "slug": "norther-provinces"
   },
   {
     "id": 10,
-    "faction": "Grand Cathay",
+    "faction": "The Western Provinces",
     "lord": "Zhao Ming, The Iron Dragon",
     "race": "Grand Cathay",
     "start_position": "The Western Provinces (Grand Cathay)",
@@ -147,11 +156,12 @@
       "Build harmony by mixing army types."
     ],
     "icon_url": "https://static.wikia.nocookie.net/totalwarhammer_gamepedia/images/0/00/The_Western_Provinces.png",
-    "dlc_required": "Requires Total War: Warhammer 3"
+    "dlc_required": "Requires Total War: Warhammer 3",
+    "slug": "western-provinces"
   },
   {
     "id": 11,
-    "faction": "Drakenhof Dynasty",
+    "faction": "Drakenhof Conclave",
     "lord": "Mannfred von Carstein",
     "race": "Vampire Counts",
     "start_position": "Drakenhof (Sylvania)",
@@ -162,11 +172,12 @@
       "Rely on strong vampire magic to turn tough fights."
     ],
     "icon_url": "https://static.wikia.nocookie.net/totalwarhammer_gamepedia/images/c/cd/Vampire_Counts.png",
-    "dlc_required": "Requires Total War: Warhammer 1 or 2"
+    "dlc_required": "Requires Total War: Warhammer 1 or 2",
+    "slug": "drakenhof-conclave"
   },
   {
     "id": 12,
-    "faction": "Drakenhof Dynasty",
+    "faction": "Sylvania",
     "lord": "Vlad von Carstein",
     "race": "Vampire Counts",
     "start_position": "Drakenhof (Sylvania)",
@@ -177,11 +188,12 @@
       "Mix skeletons and zombies for cheap armies early."
     ],
     "icon_url": "https://static.wikia.nocookie.net/totalwarhammer_gamepedia/images/8/86/Sylvania.png",
-    "dlc_required": "Requires Total War: Warhammer 1 or 2"
+    "dlc_required": "Requires Total War: Warhammer 1 or 2",
+    "slug": "sylvania"
   },
   {
     "id": 13,
-    "faction": "Von Carstein",
+    "faction": "Caravan of Blue Roses",
     "lord": "Helman Ghorst",
     "race": "Vampire Counts",
     "start_position": "Eastern Sylvania",
@@ -192,7 +204,8 @@
       "Overwhelm enemies with numbers and attrition."
     ],
     "icon_url": "https://static.wikia.nocookie.net/totalwarhammer_gamepedia/images/4/48/Caravan_of_Blue_Roses.png",
-    "dlc_required": "Requires Total War: Warhammer 3"
+    "dlc_required": "Requires Total War: Warhammer 3",
+    "slug": "caravan-of-blue-roses"
   },
   {
     "id": 14,
@@ -207,7 +220,8 @@
       "Use Kemmler’s magic to debuff and destroy enemy armies."
     ],
     "icon_url": "https://static.wikia.nocookie.net/totalwarhammer_gamepedia/images/a/a4/The_Barrow_Legion.png",
-    "dlc_required": "Requires Total War: Warhammer 1 or 2"
+    "dlc_required": "Requires Total War: Warhammer 1 or 2",
+    "slug": "the-barrow-legion"
   },
   {
     "id": 15,
@@ -222,7 +236,8 @@
       "Rely on gunnery mobs and monsters for firepower."
     ],
     "icon_url": "https://static.wikia.nocookie.net/totalwarhammer_gamepedia/images/e/ee/The_Dreadfleet.png/",
-    "dlc_required": "Curse of the Vampire Coast DLC"
+    "dlc_required": "Curse of the Vampire Coast DLC",
+    "slug": "the-dreadfleet"
   },
   {
     "id": 16,
@@ -237,7 +252,8 @@
       "Set up pirate coves in rich coastal settlements."
     ],
     "icon_url": "https://static.wikia.nocookie.net/totalwarhammer_gamepedia/images/b/b6/Wh2_main_vmp_vampire_coast_crest.png",
-    "dlc_required": "Curse of the Vampire Coast DLC"
+    "dlc_required": "Curse of the Vampire Coast DLC",
+    "slug": "the-awakened"
   },
   {
     "id": 17,
@@ -252,7 +268,8 @@
       "Raid enemy coasts for money and infamy."
     ],
     "icon_url": "https://static.wikia.nocookie.net/totalwarhammer_gamepedia/images/f/f0/Pirates_of_Sartosa.png",
-    "dlc_required": "Curse of the Vampire Coast DLC"
+    "dlc_required": "Curse of the Vampire Coast DLC",
+    "slug": "the-pirates-of-sartosa"
   },
   {
     "id": 18,
@@ -267,7 +284,8 @@
       "Buff zombie mobs with banshee songs."
     ],
     "icon_url": "https://static.wikia.nocookie.net/totalwarhammer_gamepedia/images/7/7e/4_F-150x150.png",
-    "dlc_required": "Curse of the Vampire Coast DLC"
+    "dlc_required": "Curse of the Vampire Coast DLC",
+    "slug": "the-bloody-hand"
   },
   {
     "id": 19,
@@ -282,7 +300,8 @@
       "Focus on canopic jar generation for heroes and items."
     ],
     "icon_url": "https://static.wikia.nocookie.net/totalwarhammer_gamepedia/images/f/fd/Khemri.png",
-    "dlc_required": "Rise of the Tomb Kings DLC"
+    "dlc_required": "Rise of the Tomb Kings DLC",
+    "slug": "khemri"
   },
   {
     "id": 20,
@@ -297,7 +316,8 @@
       "Use Khalida’s bonuses against undead enemies."
     ],
     "icon_url": "https://static.wikia.nocookie.net/totalwarhammer_gamepedia/images/a/ab/Court_of_Lybaras.png",
-    "dlc_required": "Rise of the Tomb Kings DLC"
+    "dlc_required": "Rise of the Tomb Kings DLC",
+    "slug": "court-of-lybaras"
   },
   {
     "id": 21,
@@ -312,7 +332,8 @@
       "Leverage vassals for campaign map flexibility."
     ],
     "icon_url": "https://static.wikia.nocookie.net/totalwarhammer_gamepedia/images/f/fc/Followers_of_Nagash.png",
-    "dlc_required": "Rise of the Tomb Kings DLC"
+    "dlc_required": "Rise of the Tomb Kings DLC",
+    "slug": "exiles-of-nehek"
   },
   {
     "id": 22,
@@ -327,7 +348,8 @@
       "Ally with Vampire Counts for undead synergy."
     ],
     "icon_url": "https://static.wikia.nocookie.net/totalwarhammer_gamepedia/images/d/d2/Exiles_of_Nehek.png",
-    "dlc_required": "Rise of the Tomb Kings DLC"
+    "dlc_required": "Rise of the Tomb Kings DLC",
+    "slug": "followers-of-nagash"
   },
   {
     "id": 23,
@@ -342,7 +364,8 @@
       "Defend mountain holds with powerful artillery."
     ],
     "icon_url": "https://static.wikia.nocookie.net/totalwarhammer_gamepedia/images/a/a2/Karaz-a-Karak.png",
-    "dlc_required": "Requires Total War: Warhammer 1 or 2"
+    "dlc_required": "Requires Total War: Warhammer 1 or 2",
+    "slug": "karaz-a-karak"
   },
   {
     "id": 24,
@@ -357,7 +380,8 @@
       "Reclaim Karak Eight Peaks for unique campaign buffs."
     ],
     "icon_url": "https://static.wikia.nocookie.net/totalwarhammer_gamepedia/images/5/56/Clan_Angrund.png",
-    "dlc_required": "Requires Total War: Warhammer 1 or 2"
+    "dlc_required": "Requires Total War: Warhammer 1 or 2",
+    "slug": "clan-angrund"
   },
   {
     "id": 25,
@@ -372,7 +396,8 @@
       "Buff armies with runesmith magic."
     ],
     "icon_url": "https://static.wikia.nocookie.net/totalwarhammer_gamepedia/images/6/61/Ironbrow%27s_Expedition.png",
-    "dlc_required": "The Silence & The Fury DLC"
+    "dlc_required": "The Silence & The Fury DLC",
+    "slug": "clan-helhein"
   },
   {
     "id": 26,
@@ -387,7 +412,8 @@
       "Capture Karak Eight Peaks for campaign rewards."
     ],
     "icon_url": "https://static.wikia.nocookie.net/totalwarhammer_gamepedia/images/f/fb/Crooked_Moon.png",
-    "dlc_required": "Requires Total War: Warhammer 1 or 2"
+    "dlc_required": "Requires Total War: Warhammer 1 or 2",
+    "slug": "crooked-moon"
   },
   {
     "id": 27,
@@ -402,7 +428,8 @@
       "Cast Foot of Gork for devastating damage."
     ],
     "icon_url": "https://static.wikia.nocookie.net/totalwarhammer_gamepedia/images/0/02/Bonerattlaz.png",
-    "dlc_required": "Requires Total War: Warhammer 1 or 2"
+    "dlc_required": "Requires Total War: Warhammer 1 or 2",
+    "slug": "bone-rattlaz"
   },
   {
     "id": 28,
@@ -417,7 +444,8 @@
       "Focus on Waaagh! to overwhelm the enemy."
     ],
     "icon_url": "https://static.wikia.nocookie.net/totalwarhammer_gamepedia/images/2/22/Ironclaw_Orcs.png",
-    "dlc_required": "Requires Total War: Warhammer 1 or 2"
+    "dlc_required": "Requires Total War: Warhammer 1 or 2",
+    "slug": "ironclaw-orcs"
   },
   {
     "id": 29,
@@ -432,7 +460,8 @@
       "Cast Spirit Leech for single-target damage."
     ],
     "icon_url": "https://static.wikia.nocookie.net/totalwarhammer_gamepedia/images/a/a1/The_Bloody_Handz.png",
-    "dlc_required": "Requires Total War: Warhammer 1 or 2"
+    "dlc_required": "Requires Total War: Warhammer 1 or 2",
+    "slug": "bloody-handz"
   },
   {
     "id": 30,
@@ -447,7 +476,8 @@
       "Rely on goblin artillery and monstrous units."
     ],
     "icon_url": "https://static.wikia.nocookie.net/totalwarhammer_gamepedia/images/4/48/Broken_Axe.png",
-    "dlc_required": "The Warden & The Paunch DLC"
+    "dlc_required": "The Warden & The Paunch DLC",
+    "slug": "broken-axe"
   },
   {
     "id": 31,
@@ -462,7 +492,8 @@
       "Take enemy capitals for trophy bonuses."
     ],
     "icon_url": "https://static.wikia.nocookie.net/totalwarhammer_gamepedia/images/4/41/Clan_Mors.png",
-    "dlc_required": "Requires Total War: Warhammer 2 or 3"
+    "dlc_required": "Requires Total War: Warhammer 2 or 3",
+    "slug": "clan-mors"
   },
   {
     "id": 32,
@@ -477,7 +508,8 @@
       "Spread corruption for campaign advantages."
     ],
     "icon_url": "https://static.wikia.nocookie.net/totalwarhammer_gamepedia/images/f/f7/Clan_Pestilens.png",
-    "dlc_required": "Requires Total War: Warhammer 2 or 3"
+    "dlc_required": "Requires Total War: Warhammer 2 or 3",
+    "slug": "clan-pestilens"
   },
   {
     "id": 33,
@@ -492,7 +524,8 @@
       "Mix warplock weapons and monsters for devastation."
     ],
     "icon_url": "https://static.wikia.nocookie.net/totalwarhammer_gamepedia/images/8/88/Clan_Skryre.png",
-    "dlc_required": "The Prophet & The Warlock DLC"
+    "dlc_required": "The Prophet & The Warlock DLC",
+    "slug": "clan-skryre"
   },
   {
     "id": 34,
@@ -507,7 +540,8 @@
       "Leverage Snikch's stealth for sneak attacks."
     ],
     "icon_url": "https://static.wikia.nocookie.net/totalwarhammer_gamepedia/images/6/6f/Clan_Eshin.png",
-    "dlc_required": "The Shadow & The Blade DLC"
+    "dlc_required": "The Shadow & The Blade DLC",
+    "slug": "clan-eshin"
   },
   {
     "id": 35,
@@ -522,7 +556,8 @@
       "Use dinosaurs for strong frontline."
     ],
     "icon_url": "https://static.wikia.nocookie.net/totalwarhammer_gamepedia/images/5/58/Hexoatl.png",
-    "dlc_required": "Requires Total War: Warhammer 2 or 3"
+    "dlc_required": "Requires Total War: Warhammer 2 or 3",
+    "slug": "lizardmen"
   },
   {
     "id": 36,
@@ -537,7 +572,8 @@
       "Hunt enemy monsters for powerful traits."
     ],
     "icon_url": "https://static.wikia.nocookie.net/totalwarhammer_gamepedia/images/f/f8/Last_Defenders.png",
-    "dlc_required": "Requires Total War: Warhammer 2 or 3"
+    "dlc_required": "Requires Total War: Warhammer 2 or 3",
+    "slug": "lizardmen"
   },
   {
     "id": 37,
@@ -552,7 +588,8 @@
       "Flood the enemy with skink units."
     ],
     "icon_url": "https://static.wikia.nocookie.net/totalwarhammer_gamepedia/images/5/5c/Cult_of_Sotek.png",
-    "dlc_required": "The Prophet & The Warlock DLC"
+    "dlc_required": "The Prophet & The Warlock DLC",
+    "slug": "lizardmen"
   },
   {
     "id": 38,
@@ -567,7 +604,8 @@
       "Use Kroxigors for elite shock troops."
     ],
     "icon_url": "https://static.wikia.nocookie.net/totalwarhammer_gamepedia/images/1/13/Spirit_of_the_Jungle.png",
-    "dlc_required": "The Hunter & The Beast DLC"
+    "dlc_required": "The Hunter & The Beast DLC",
+    "slug": "spirit-of-the-jungle"
   },
   {
     "id": 39,
@@ -581,8 +619,9 @@
       "Establish Ogre camps near enemy cities.",
       "Use Greasus' diplomatic skills for profit."
     ],
-    "icon_url:": "https://static.wikia.nocookie.net/totalwarhammer_gamepedia/images/1/14/Goldtooth.png/",
-    "dlc_required": "Ogre Kingdoms DLC"
+    "icon_url": "https://static.wikia.nocookie.net/totalwarhammer_gamepedia/images/1/14/Goldtooth.png",
+    "dlc_required": "Ogre Kingdoms DLC",
+    "slug": "ogre-kingdoms"
   },
   {
     "id": 40,
@@ -597,7 +636,8 @@
       "Use Skrag's buffs to run all-ogre armies."
     ],
     "icon_url": "https://static.wikia.nocookie.net/totalwarhammer_gamepedia/images/8/88/Disciples_of_the_Maw.png",
-    "dlc_required": "Ogre Kingdoms DLC"
+    "dlc_required": "Ogre Kingdoms DLC",
+    "slug": "the-maneaters"
   },
   {
     "id": 41,
@@ -612,7 +652,8 @@
       "Trade with other High Elf factions for easy income."
     ],
     "icon_url": "https://static.wikia.nocookie.net/totalwarhammer_gamepedia/images/4/4f/Eataine.png/",
-    "dlc_required": "Requires Total War: Warhammer 2 or 3"
+    "dlc_required": "Requires Total War: Warhammer 2 or 3",
+    "slug": "lothern"
   },
   {
     "id": 42,
@@ -627,7 +668,8 @@
       "Form alliances with Lizardmen for mutual benefits."
     ],
     "icon_url": "https://static.wikia.nocookie.net/totalwarhammer_gamepedia/images/3/32/Order_of_Loremasters.png/",
-    "dlc_required": "Requires Total War: Warhammer 2 or 3"
+    "dlc_required": "Requires Total War: Warhammer 2 or 3",
+    "slug": "order-of-loremasters"
   },
   {
     "id": 43,
@@ -642,7 +684,8 @@
       "Recruit shadow warriors for deadly ranged harassment."
     ],
     "icon_url": "https://static.wikia.nocookie.net/totalwarhammer_gamepedia/images/f/f4/Nagarythe.png/",
-    "dlc_required": "Queen & Crone DLC"
+    "dlc_required": "Queen & Crone DLC",
+    "slug": "nagarythe"
   },
   {
     "id": 44,
@@ -657,7 +700,8 @@
       "Unlock Black Arks for global recruitment."
     ],
     "icon_url": "https://static.wikia.nocookie.net/totalwarhammer_gamepedia/images/5/5a/Naggarond.png/",
-    "dlc_required": "Requires Total War: Warhammer 2 or 3"
+    "dlc_required": "Requires Total War: Warhammer 2 or 3",
+    "slug": "naggarond"
   },
   {
     "id": 45,
@@ -672,7 +716,8 @@
       "Use Morathi’s spells for control and debuffs."
     ],
     "icon_url": "https://static.wikia.nocookie.net/totalwarhammer_gamepedia/images/9/96/Cult_of_Pleasure.png/",
-    "dlc_required": "Requires Total War: Warhammer 2 or 3"
+    "dlc_required": "Requires Total War: Warhammer 2 or 3",
+    "slug": "cult-of-pleasure"
   },
   {
     "id": 46,
@@ -687,7 +732,8 @@
       "Recruit witch elves for armor-piercing melee."
     ],
     "icon_url": "https://static.wikia.nocookie.net/totalwarhammer_gamepedia/images/5/59/Har_Ganeth.png/",
-    "dlc_required": "Queen & Crone DLC"
+    "dlc_required": "Queen & Crone DLC",
+    "slug": "har-ganeth"
   },
   {
     "id": 47,
@@ -702,7 +748,8 @@
       "Expand quickly before corruption overtakes."
     ],
     "icon_url": "https://static.wikia.nocookie.net/totalwarhammer_gamepedia/images/a/a3/Hag_Graef.png/",
-    "dlc_required": "The Shadow & The Blade DLC"
+    "dlc_required": "The Shadow & The Blade DLC",
+    "slug": "hag-graef"
   },
   {
     "id": 48,
@@ -717,7 +764,8 @@
       "Defend Yvresse with elite units and walls."
     ],
     "icon_url": "https://static.wikia.nocookie.net/totalwarhammer_gamepedia/images/e/e1/Yvresse.png/",
-    "dlc_required": "The Warden & The Paunch DLC"
+    "dlc_required": "The Warden & The Paunch DLC",
+    "slug": "yvresse"
   },
   {
     "id": 49,
@@ -732,7 +780,8 @@
       "Alarielle’s healing magic is key to survival."
     ],
     "icon_url": "https://static.wikia.nocookie.net/totalwarhammer_gamepedia/images/2/2b/Avelorn.png/",
-    "dlc_required": "Queen & Crone DLC"
+    "dlc_required": "Queen & Crone DLC",
+    "slug": "avelorn"
   },
   {
     "id": 50,
@@ -747,7 +796,8 @@
       "Maximize ranged units for overwhelming firepower."
     ],
     "icon_url": "https://static.wikia.nocookie.net/totalwarhammer_gamepedia/images/d/d1/Heralds_of_Ariel.png/",
-    "dlc_required": "The Twisted & The Twilight DLC"
+    "dlc_required": "The Twisted & The Twilight DLC",
+    "slug": "heralds-of-ariel"
   },
   {
     "id": 51,
@@ -762,7 +812,8 @@
       "Summon spirits to support your armies."
     ],
     "icon_url": "https://static.wikia.nocookie.net/totalwarhammer_gamepedia/images/5/5c/Wargrove_of_Woe.png/",
-    "dlc_required": "Requires Total War: Warhammer 2 or 3"
+    "dlc_required": "Requires Total War: Warhammer 2 or 3",
+    "slug": "wood-elves"
   },
   {
     "id": 52,
@@ -777,7 +828,8 @@
       "Complete monster hunts for campaign buffs."
     ],
     "icon_url": "https://static.wikia.nocookie.net/totalwarhammer_gamepedia/images/3/32/Wintertooth.png/",
-    "dlc_required": "Requires Total War: Warhammer 1 or 2"
+    "dlc_required": "Requires Total War: Warhammer 1 or 2",
+    "slug": "wintertooth"
   },
   {
     "id": 53,
@@ -792,7 +844,8 @@
       "Complete monster hunts to strengthen armies."
     ],
     "icon_url": "https://static.wikia.nocookie.net/totalwarhammer_gamepedia/images/5/52/World_Walkers.png/",
-    "dlc_required": "Requires Total War: Warhammer 1 or 2"
+    "dlc_required": "Requires Total War: Warhammer 1 or 2",
+    "slug": "world-walkers"
   },
   {
     "id": 54,
@@ -807,7 +860,8 @@
       "Gain dread for campaign upgrades."
     ],
     "icon_url": "https://static.wikia.nocookie.net/totalwarhammer_gamepedia/images/7/79/Warherd_of_the_One-Eye.png/",
-    "dlc_required": "Call of the Beastmen DLC"
+    "dlc_required": "Call of the Beastmen DLC",
+    "slug": "beastmen"
   },
   {
     "id": 55,
@@ -822,7 +876,8 @@
       "Corrupt provinces for campaign bonuses."
     ],
     "icon_url": "https://static.wikia.nocookie.net/totalwarhammer_gamepedia/images/a/a2/Harbinger_of_Disaster.png/",
-    "dlc_required": "Call of the Beastmen DLC"
+    "dlc_required": "Call of the Beastmen DLC",
+    "slug": "beastmen"
   },
   {
     "id": 56,
@@ -837,7 +892,8 @@
       "Specialize lords in each chaos god for flexibility."
     ],
     "icon_url": "https://static.wikia.nocookie.net/totalwarhammer_gamepedia/images/f/f6/Warhost_of_the_Apocalypse.png/",
-    "dlc_required": "Champions of Chaos DLC"
+    "dlc_required": "Champions of Chaos DLC",
+    "slug": "warhost-of-the-apocalypse"
   },
   {
     "id": 57,
@@ -852,7 +908,8 @@
       "Use lightning spells to disrupt enemy lines."
     ],
     "icon_url": "https://static.wikia.nocookie.net/totalwarhammer_gamepedia/images/d/d9/Heralds_of_the_Tempest.png/",
-    "dlc_required": "Requires Total War: Warhammer 1 or 2"
+    "dlc_required": "Requires Total War: Warhammer 1 or 2",
+    "slug": "heralds-of-the-tempest"
   },
   {
     "id": 58,
@@ -867,7 +924,8 @@
       "Buff armies with Slaanesh's luxury buildings."
     ],
     "icon_url": "https://static.wikia.nocookie.net/totalwarhammer_gamepedia/images/8/8b/The_Decadent_Host.png/",
-    "dlc_required": "Requires Total War: Warhammer 1 or 2"
+    "dlc_required": "Requires Total War: Warhammer 1 or 2",
+    "slug": "the-swords-of-chaos"
   },
   {
     "id": 59,
@@ -882,7 +940,8 @@
       "Recruit Khorne-marked units for campaign bonuses."
     ],
     "icon_url": "https://static.wikia.nocookie.net/totalwarhammer_gamepedia/images/8/8b/The_Decadent_Host.png/",
-    "dlc_required": "Champions of Chaos DLC"
+    "dlc_required": "Champions of Chaos DLC",
+    "slug": "the-monoliths"
   },
   {
     "id": 60,
@@ -897,7 +956,8 @@
       "Field mixed daemon armies for versatility."
     ],
     "icon_url": "https://static.wikia.nocookie.net/totalwarhammer_gamepedia/images/d/da/Wh3_main_dae_daemon_prince_256.png/",
-    "dlc_required": "Requires Total War: Warhammer 3"
+    "dlc_required": "Requires Total War: Warhammer 3",
+    "slug": "legion-of-chaos"
   },
   {
     "id": 61,
@@ -912,7 +972,8 @@
       "Buff armies with Skull Cannons and Bloodthirsters."
     ],
     "icon_url": "https://static.wikia.nocookie.net/totalwarhammer_gamepedia/images/0/0a/Challengers_of_Khorne.png/",
-    "dlc_required": "Requires Total War: Warhammer 3"
+    "dlc_required": "Requires Total War: Warhammer 3",
+    "slug": "exiles-of-khorne"
   },
   {
     "id": 62,
@@ -927,7 +988,8 @@
       "Focus on pure Khorne armies for buffs."
     ],
     "icon_url": "https://static.wikia.nocookie.net/totalwarhammer_gamepedia/images/4/47/Puppets_of_Misrule.png/",
-    "dlc_required": "Champions of Chaos DLC"
+    "dlc_required": "Champions of Chaos DLC",
+    "slug": "puppets-of-misrule"
   },
   {
     "id": 63,
@@ -942,7 +1004,8 @@
       "Use regenerating units to outlast enemies."
     ],
     "icon_url": "https://static.wikia.nocookie.net/totalwarhammer_gamepedia/images/8/8d/Poxmakers_of_Nurgle.png/",
-    "dlc_required": "Requires Total War: Warhammer 3"
+    "dlc_required": "Requires Total War: Warhammer 3",
+    "slug": "pestilens"
   },
   {
     "id": 64,
@@ -957,7 +1020,8 @@
       "Focus on barrier units and missile damage."
     ],
     "icon_url": "https://static.wikia.nocookie.net/totalwarhammer_gamepedia/images/a/a0/Oracles_of_Tzeentch.png/",
-    "dlc_required": "Requires Total War: Warhammer 3"
+    "dlc_required": "Requires Total War: Warhammer 3",
+    "slug": "the-oracles-of-tzeentch"
   },
   {
     "id": 65,
@@ -972,7 +1036,8 @@
       "Leverage vassals for campaign map control."
     ],
     "icon_url": "https://static.wikia.nocookie.net/totalwarhammer_gamepedia/images/d/d7/Seducers_of_Slaanesh.png/",
-    "dlc_required": "Requires Total War: Warhammer 3"
+    "dlc_required": "Requires Total War: Warhammer 3",
+    "slug": "the-seducers-of-slaanesh"
   },
   {
     "id": 66,
@@ -987,7 +1052,8 @@
       "Use Skrag's buffs to run all-ogre armies."
     ],
     "icon_url": "https://static.wikia.nocookie.net/totalwarhammer_gamepedia/images/8/88/Disciples_of_the_Maw.png/",
-    "dlc_required": "Ogre Kingdoms DLC"
+    "dlc_required": "Ogre Kingdoms DLC",
+    "slug": "disciples-of-the-maw"
   },
   {
     "id": 67,
@@ -1002,7 +1068,8 @@
       "Leverage labor economy for rapid growth."
     ],
     "icon_url": "https://static.wikia.nocookie.net/totalwarhammer_gamepedia/images/d/d6/The_Legion_of_Azgorh.png/",
-    "dlc_required": "Forge of the Chaos Dwarfs DLC"
+    "dlc_required": "Forge of the Chaos Dwarfs DLC",
+    "slug": "the-legion-of-azgorh"
   },
   {
     "id": 68,
@@ -1017,7 +1084,8 @@
       "Recruit K’daai and bull centaur units for a strong army."
     ],
     "icon_url": "https://static.wikia.nocookie.net/totalwarhammer_gamepedia/images/9/9c/Disciples_of_Hashut.png/",
-    "dlc_required": "Forge of the Chaos Dwarfs DLC"
+    "dlc_required": "Forge of the Chaos Dwarfs DLC",
+    "slug": "the-disciples-of-hashut"
   },
   {
     "id": 69,
@@ -1032,6 +1100,7 @@
       "Use Zhatan’s buffs to maintain multiple armies."
     ],
     "icon_url": "https://static.wikia.nocookie.net/totalwarhammer_gamepedia/images/d/d0/The_Warhost_of_Zharr.png/",
-    "dlc_required": "Forge of the Chaos Dwarfs DLC"
+    "dlc_required": "Forge of the Chaos Dwarfs DLC",
+    "slug": "the-uzkulak"
   }
 ]
