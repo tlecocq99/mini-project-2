@@ -4,28 +4,54 @@ import axios from "axios";
 import { Container, Typography, Paper, Button } from "@mui/material";
 
 function FactionDetailPage() {
-  const { id } = useParams();
+  const { slug } = useParams();
   const [faction, setFaction] = useState(null);
 
   useEffect(() => {
     axios
-      .get(`http://localhost:3001/api/factions/${id}`)
+      .get(`http://localhost:3001/api/factions/${slug}`)
       .then((res) => setFaction(res.data))
       .catch(() => setFaction(null));
-  }, [id]);
+  }, [slug]);
 
   if (!faction) return <Typography>Loading...</Typography>;
 
   return (
-    <Container maxWidth="sm" sx={{ mt: 6 }}>
-      <Paper sx={{ p: 4 }}>
+    <Container
+      maxWidth="sm"
+      sx={{
+        mt: 8,
+        mb: 8,
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        minHeight: "80vh",
+        backgroundColor: "rgba(17, 11, 11, 0.07)", // light gray background
+        borderRadius: 3,
+        boxShadow: "0 2px 16px 0 rgba(34, 34, 34, 0.69)",
+      }}
+    >
+      <Paper
+        sx={{
+          p: 4,
+          borderRadius: 3,
+          boxShadow: "0 4px 24px 0 rgba(0,0,0,0.10)",
+          width: "100%",
+          background: "#fff",
+        }}
+      >
         <Typography variant="h4" gutterBottom>
           {faction.faction} — {faction.lord}
         </Typography>
         <img
           src={faction.icon_url}
           alt={faction.faction}
-          style={{ width: 100, height: 100, objectFit: "contain" }}
+          style={{
+            width: 100,
+            height: 100,
+            objectFit: "contain",
+            marginBottom: 16,
+          }}
         />
         <Typography variant="h6" mt={2}>
           Race: {faction.race}
@@ -42,9 +68,9 @@ function FactionDetailPage() {
         <Typography variant="subtitle2" mt={1}>
           DLC Required: {faction.dlc_required}
         </Typography>
-        <Typography variant="body2" mt={2}>
+        <Typography variant="body2" mt={2} component={"div"}>
           <strong>Tips:</strong>
-          <ul>
+          <ul style={{ marginTop: 8, marginBottom: 0, paddingLeft: 20 }}>
             {faction.tips.map((tip, i) => (
               <li key={i}>{tip}</li>
             ))}
@@ -54,7 +80,7 @@ function FactionDetailPage() {
           component={Link}
           to="/factions"
           variant="contained"
-          sx={{ mt: 2 }}
+          sx={{ mt: 3 }}
         >
           Back to Factions
         </Button>
