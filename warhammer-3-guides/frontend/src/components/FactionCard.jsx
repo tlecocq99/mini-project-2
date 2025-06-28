@@ -1,11 +1,5 @@
 import React from "react";
-import {
-  Backdrop,
-  Card,
-  CardContent,
-  CardMedia,
-  Typography,
-} from "@mui/material";
+import { Card, CardContent, CardMedia, Typography } from "@mui/material";
 
 function FactionCard({ faction }) {
   return (
@@ -14,9 +8,9 @@ function FactionCard({ faction }) {
       sx={{
         margin: "auto",
         my: 2,
-        maxWidth: 350,
+        maxWidth: 280,
         width: "100%",
-        height: 320, // Set your desired uniform height
+        height: 360, // Set your desired uniform height
         display: "flex",
         flexDirection: "column",
         backgroundColor: "rgba(30,30,30,0.7)",
@@ -27,33 +21,44 @@ function FactionCard({ faction }) {
     >
       <CardMedia
         component="img"
-        height="140"
         image={faction.icon_url}
         alt={faction.lord}
-        style={{ objectFit: "contain", background: "#223" }}
+        sx={{ objectFit: "contain", background: "#222", height: 140 }}
         onError={(e) => {
           e.target.onerror = null;
-          e.target.src = "/placeholder.png";
+          e.target.src = "/placeholder.png"; // Use a fallback image if desired
         }}
       />
-      <CardContent
-        sx={{
-          backgroundColor: "transparent",
-          color: "white",
-          p: 2,
-        }}
-      >
-        <Typography color="white" variant="h5">
-          {faction.lord}{" "}
-          <span style={{ fontWeight: 300 }}>({faction.faction})</span>
+      <CardContent sx={{ flexGrow: 1 }}>
+        <Typography
+          color="white"
+          fontFamily="Playfair Display"
+          variant="h6"
+          gutterBottom
+        >
+          {faction.faction}{" "}
+          <span style={{ fontWeight: 300 }}>({faction.lord})</span>
         </Typography>
-        <Typography color="white" variant="subtitle2" mt={0.2}>
+        <Typography
+          fontFamily="Playfair Display"
+          variant="subtitle2"
+          color="white"
+        >
           {faction.race}
         </Typography>
-        <Typography color="white" variant="body2" mt={1}>
-          {faction.summary}{" "}
+        <Typography
+          fontFamily="Playfair Display"
+          variant="body1"
+          sx={{ overflow: "hidden", textOverflow: "ellipsis" }}
+          color="white"
+        >
+          {faction.summary}
         </Typography>
-        <Typography variant="caption" color="white">
+        <Typography
+          fontFamily="Playfair Display"
+          variant="caption"
+          color="secondary"
+        >
           DLC: {faction.dlc_required}
         </Typography>
       </CardContent>
