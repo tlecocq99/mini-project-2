@@ -36,8 +36,8 @@ function FactionCard({ faction }) {
           variant="h6"
           gutterBottom
         >
-          {faction.lord}{" "}
-          <span style={{ fontWeight: 300 }}>({faction.faction})</span>
+          {faction.faction}{" "}
+          <span style={{ fontWeight: 300 }}>({faction.lord})</span>
         </Typography>
         <Typography
           fontFamily="Playfair Display"
