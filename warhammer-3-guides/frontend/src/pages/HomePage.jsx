@@ -81,11 +81,17 @@ export default function HomePage() {
               sx={{
                 mb: 3,
                 background: "linear-gradient(90deg, #b71c1c 0%, #222 100%)",
+                backgroundImage:
+                  "linear-gradient(90deg, #b71c1c 0%, #222 100%)",
+                backgroundColor: "transparent",
                 color: "white",
                 fontWeight: "bold",
                 boxShadow: "0 4px 12px rgba(0,0,0,0.5)",
                 "&:hover": {
                   background: "linear-gradient(90deg, #222 0%, #b71c1c 100%)",
+                  backgroundImage:
+                    "linear-gradient(90deg, #222 0%, #b71c1c 100%)",
+                  backgroundColor: "transparent",
                 },
               }}
             >
