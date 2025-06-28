@@ -10,7 +10,7 @@ function App() {
     <Routes>
       <Route path="/" element={<HomePage />} />
       <Route path="/factions" element={<FactionsListPage />} />
-      <Route path="/factions/:id" element={<FactionDetailPage />} />
+      <Route path="/factions/:slug" element={<FactionDetailPage />} />
       <Route path="/feedback" element={<FeedbackPage />} />
     </Routes>
   );
